@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Validation-Form</title>
+</head>
+<body>
+    
+   <div class="cook">
+    <h1 class="CAKE-BOOK">CAKE-BOOK LOGIN</h1>
+   </div>
+    <div class="FORM-BOX">
+        
+        <form>
+            <input type="email"placeholder="Email" name="email_" required>
+            <input id="password_validation" type="text" placeholder="password" name="password_" required>
+            <div class="password_required">
+              <ul>
+                <li class="Lowercase" ><span></span>One Lowercase Letter</li>
+                <li class="Capital"><span></span>One Capital Letter</li>
+                <li class="Number"><span></span>One Number</li>
+                <li class="Special"><span></span>One Special Character</li>
+                <li class="Characters"><span></span>At Least 8 Characters</li>
+              </ul>
+            </div>
+            <input class="input_submit active"  type="submit" value="Login">
+        </form>
+        
+    </div>
+   
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

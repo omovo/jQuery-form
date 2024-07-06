@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(206, 207, 209);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+
+}
+
+.FORM-BOX{
+    width: 300px;
+    padding: 30px;
+    border-radius: 50px;
+    background:  rgb(92, 119, 239);
+    
+}
+
+
+.FORM-BOX input:not([type="submit"]) {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.input_submit{
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #02388f;
+    text-transform: uppercase;
+    color: #fff;
+    pointer-events: none;
+    margin-left: 70px;
+}
+
+.input_submit.active{
+    pointer-events: auto;
+
+}
+
+.input_submit:hover{
+  background-color: rgb(102, 100, 213);
+}
+
+
+
+.cook{
+    position: absolute;
+    margin-bottom: 550px;
+    padding: 50px;
+}
+
+.password_required
+
+.password_required ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.password_required ul li{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.password_required ul li span:before{
+    content: "🗙";
+}
+
+.password_required ul li.active span:before{
+    content: "✅";
+}
+
+.password_required{
+    display: none;
+}
+
+.CAKE-BOOK{
+    color: #355283;
+    font-family: Arial, Helvetica, sans-serif;
+}
